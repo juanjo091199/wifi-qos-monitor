@@ -1,0 +1,45 @@
+# ── Datos (CSVs de medición) ──────────────────────────────────────────────────
+data/*.csv
+data/*.db
+
+# ── Modelos entrenados (pueden ser pesados) ───────────────────────────────────
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ── Entornos virtuales ────────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Variables de entorno ──────────────────────────────────────────────────────
+.env
+*.env
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Sistema operativo ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+output.log
