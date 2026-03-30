@@ -62,9 +62,6 @@ El sistema recolecta métricas de Calidad de Servicio (QoS) en tiempo real, apli
 wifi-qos-monitor/
 ├── data/                          # CSVs de medición (no versionados)
 │   └── .gitkeep
-├── models/                        # Modelo entrenado y metadatos
-│   ├── modelo_rf_qos.pkl
-│   └── columnas_modelo.json
 ├── notebooks/                     # Análisis y entrenamiento
 │   ├── 01_EDA.ipynb
 │   ├── 02_feature_engineering.ipynb
