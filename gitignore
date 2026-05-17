@@ -1,8 +1,8 @@
-# ── Datos (CSVs de medición) ──────────────────────────────────────────────────
-data/*.csv
+# ── Datos — excluidos por defecto (pueden ser grandes o sensibles) ─────────────
+# Para subir el dataset al repo, usa: git add -f data/nombre_archivo.csv
 data/*.db
 
-# ── Modelos entrenados (pueden ser pesados) ───────────────────────────────────
+# ── Modelos entrenados (archivos pesados — no versionar binarios) ──────────────
 models/*.pkl
 models/*.joblib
 models/*.h5
@@ -25,9 +25,10 @@ env/
 # ── Jupyter ───────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
 
-# ── Variables de entorno ──────────────────────────────────────────────────────
+# ── Variables de entorno y configuración local ────────────────────────────────
 .env
 *.env
+config_local.py
 
 # ── IDEs ──────────────────────────────────────────────────────────────────────
 .vscode/

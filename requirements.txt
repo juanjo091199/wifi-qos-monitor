@@ -4,6 +4,10 @@ matplotlib
 seaborn
 scikit-learn
 imbalanced-learn
+xgboost
 joblib
 streamlit
 requests
+httpx
+plotly
+python-telegram-bot==20.7
