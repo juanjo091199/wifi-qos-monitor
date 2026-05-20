@@ -63,7 +63,7 @@ El sistema entrena y utiliza **cuatro modelos simultáneos**, uno por cada horiz
 | Horizonte | Tiempo | Algoritmo | F1-macro |
 |---|---|---|---|
 | H1 | 30 segundos | Random Forest | ~0.77 |
-| H10 | 5 minutos | Random Forest | ~0.77 |
+| H10 | 5 minutos | XGBoost | ~0.77 |
 | H20 | 10 minutos | XGBoost | ~0.67 |
 | H30 | 15 minutos | XGBoost | ~0.65 |
 
