@@ -32,14 +32,14 @@ import httpx
 # CONFIGURACIÓN
 # ═══════════════════════════════════════════════════════════════════════════════
 
-API_URL       = "http://192.168.1.14:5000/datos"
+API_URL       = "http://IPRASPBERRYPI:5000/datos"
 RUTA_MODELOS  = r"C:\Users\juanj\Desktop\Maestría\Tesis\Modelos"
 INTERVALO_SEG = 30
 VENTANA       = 10
 VENTANA_PLOT  = 40
 
-TELEGRAM_TOKEN   = "8352048203:AAG3fiF9LCj8V00wOvEb2euftMIdsTbW12M"
-TELEGRAM_CHAT_ID = "5001995852"
+TELEGRAM_TOKEN   = "TUTELEGRAM_TOKEN"
+TELEGRAM_CHAT_ID = "TU_CHAT_ID"
 CONFIANZA_MINIMA = 0.60
 
 METRICAS = [
