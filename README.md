@@ -67,15 +67,15 @@ El sistema entrena y utiliza **cuatro modelos simultáneos**, uno por cada horiz
 | H20 | 10 minutos | XGBoost | ~0.67 |
 | H30 | 15 minutos | XGBoost | ~0.65 |
 
-Los modelos Random Forest se seleccionaron para H1 y H10 por su mayor interpretabilidad y viabilidad operativa. XGBoost se seleccionó para H20 y H30 por su mejor manejo de desequilibrio de clases en horizontes largos.
+Los modelos Random Forest se seleccionaron para H1 por su mayor interpretabilidad y viabilidad operativa. XGBoost se seleccionó para H10, H20 y H30 por su mejor manejo de desequilibrio de clases en horizontes largos.
 
 ### Comparación con baseline
 
 | Modelo | F1-macro | Notas |
 |---|---|---|
 | Regresión Logística (baseline) | ~0.45 | Baseline lineal supervisado |
-| **Random Forest (H1, H10)** | **~0.77** | Modelo seleccionado |
-| **XGBoost (H20, H30)** | **~0.65–0.67** | Modelo seleccionado |
+| **Random Forest (H1)** | **~0.77** | Modelo seleccionado |
+| **XGBoost (H10, H20, H30)** | **~0.65–0.67** | Modelo seleccionado |
 
 ---
 
@@ -198,7 +198,7 @@ python -m streamlit run src/dashboard/dashboard_qos.py
 - [x] API REST Flask (`api_qos.py`)
 - [x] Análisis exploratorio de datos (`01_EDA.ipynb`)
 - [x] Ingeniería de características con ventanas temporales y forward labeling (`02_feature_engineering.ipynb`)
-- [x] Entrenamiento multi-horizonte: Random Forest (H1, H10) + XGBoost (H20, H30) (`03_entrenamiento.ipynb`)
+- [x] Entrenamiento multi-horizonte: Random Forest (H1) + XGBoost (H10, H20, H30) (`03_entrenamiento.ipynb`)
 - [x] Dashboard Streamlit con predicción simultánea en cuatro horizontes (`dashboard_qos.py`)
 
 ---
